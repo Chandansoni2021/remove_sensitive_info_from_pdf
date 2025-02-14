@@ -3,11 +3,11 @@ from azure.ai.documentintelligence import DocumentIntelligenceClient
 
 
 # Azure configuration
-endpoint = "https://eastus.api.cognitive.microsoft.com/"
-key = "aad0ce575bb8412b86654bcbd972481c"
+endpoint = ""
+key = ""
 
 # Path to your local file (replace with your actual file path)
-file_path = "BC ANIKA Tax Invoice.pdf"
+file_path = "Invoice.pdf"
 
 # Initialize the Document Intelligence client
 document_intelligence_client = DocumentIntelligenceClient(
